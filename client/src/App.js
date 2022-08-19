@@ -20,8 +20,8 @@ function App() {
         <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/cart' component={Cart}/>
-//             <Route exact path='/Itemdetails' component={ItemDetails}/>
-//             <Route exact path='/Itemdetails2' component={ItemDetails2}/>
+            <Route exact path='/Itemdetails' component={ItemDetails}/>
+            <Route exact path='/Itemdetails2' component={ItemDetails2}/>
 
           </Switch>
         </BrowserRouter>
